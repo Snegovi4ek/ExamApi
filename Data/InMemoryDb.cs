@@ -6,8 +6,7 @@ public static class InMemoryDb
 {
     public static List<Student> Students { get; } = new()
     {
-        new Student { Id = 1, Name = "Иван Иванов", Group = "УВП-311" },
-        new Student { Id = 2, Name = "Мария Петрова", Group = "УВП-312" }
+        new Student { Id = 1, Name = "Маяков Сергей Александрович", Group = "УВП-312" }
     };
 
     public static List<Course> Courses { get; } = new()
